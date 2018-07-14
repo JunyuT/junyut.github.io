@@ -5,4 +5,4 @@ Architecture: iphoneos-arm
 Description: Replaces Siri with henchman. voiceover by /u/
 Maintainer: Junyu Teoh <illuminarias96@gmail.com>
 Author: Junyu Teoh <illuminarias96@gmail.com>
-Section: Tweaksi
+Section: Tweaks

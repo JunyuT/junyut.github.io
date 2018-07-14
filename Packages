@@ -3,11 +3,11 @@ Version: 0.0.6
 Architecture: iphoneos-arm
 Maintainer: Junyu Teoh <illuminarias96@gmail.com>
 Filename: ./debs/com.junyut.duhokaybawse_0.0.6_iphoneos-arm.deb
-Size: 461286
-MD5sum: cea42cc5f182c8dcc5e8edafade7ee75
-SHA1: a043be0b12a85644a56a30649a33da542f1f5b65
-SHA256: fc953e80a51fde6881e2dd6b704097a3b4891ac6ef49cd8e7dd483bebf8c452d
-Section: Tweaksi
+Size: 461282
+MD5sum: beef7f01f1467b0b58fe85a63555d79f
+SHA1: 86288b00788fa7e8f07f01cb0fbd680321c27cbe
+SHA256: d429962cb66cc13859e877d8ab28e9a2a7d7f959a73931cb9fba6c992aef23c0
+Section: Tweaks
 Description: Replaces Siri with henchman. voiceover by /u/
 Author: Junyu Teoh <illuminarias96@gmail.com>
 Name: duhokaybawse
