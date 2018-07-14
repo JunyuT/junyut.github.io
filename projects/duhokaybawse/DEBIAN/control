@@ -1,6 +1,6 @@
 Package: com.junyut.duhokaybawse
 Name: duhokaybawse
-Version: 0.0.6
+Version: 0.1.0
 Architecture: iphoneos-arm
 Description: Replaces Siri with henchman. voiceover by /u/
 Maintainer: Junyu Teoh <illuminarias96@gmail.com>
