@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "Thanks for trying out my tweak! If you face any issues, please contact me on reddit /u/illuminarias"
+chown root:wheel /System/Library/Audio/UISounds
+chmod 644 /System/Library/Audio/UISounds/jbl_begin.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_ambigious.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_begin.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_confirm.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_no_match.caf
+
+echo "Replacing iOS Siri sounds"
+
+cp -a /System/Library/Audio/UISounds/jbl_ambigious.caf /System/Library/Audio/UISounds
+cp -a /System/Library/Audio/UISounds/jbl_begin.caf /System/Library/Audio/UISounds
+cp -a /System/Library/Audio/UISounds/jbl_cancel.caf /System/Library/Audio/UISounds
+cp -a /System/Library/Audio/UISounds/jbl_confirm.caf /System/Library/Audio/UISounds
+cp -a /System/Library/Audio/UISounds/jbl_no_match.caf /System/Library/Audio/UISounds
+
+chown root:wheel /System/Library/Audio/UISounds
+chmod 644 /System/Library/Audio/UISounds/jbl_begin.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_ambigious.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_begin.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_confirm.caf
+chmod 644 /System/Library/Audio/UISounds/jbl_no_match.caf
+
+echo "Removing .git"
+rm -rf .git
+
+echo "All done! Please enjoy :)"
+exit 0
